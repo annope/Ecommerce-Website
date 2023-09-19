@@ -696,6 +696,27 @@ footer .copyright{
         width: 100%;
     }
 
+    /* Blog Page */
+    #blog {
+        padding: 100px 20px 0px 20px !important;
+    }
+
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details{
+        width: 100%;
+    }
+
 }  
 
 /* Shop Page */
@@ -811,6 +832,7 @@ footer .copyright{
     align-items: center;
     width: 100%;
     position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img{
