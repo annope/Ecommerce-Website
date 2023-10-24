@@ -631,7 +631,7 @@ footer .copyright{
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 477px) {
     .section-p1{
         padding: 20px;
     }
@@ -714,6 +714,21 @@ footer .copyright{
     }
 
     #blog .blog-details{
+        width: 100%;
+    }
+
+    /* About Page */
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-app .video{
         width: 100%;
     }
 
